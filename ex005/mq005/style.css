@@ -20,17 +20,43 @@ header h1{
    
 }
 
-nav a{
-    background-color: rgb(72, 72, 72);
-    border: 2px solid gray;
-    color: white;
+menu{
+    display:none  ;
+}
+
+ul >li{
+    background-color: rgb(82, 82, 82);
+    border: 1px solid gray;
+    text-align: center;
+    list-style-type: none;
     padding: 10px;
+    
+}
+
+ul >li:hover{
+    background-color: #949494;
+}
+
+li >a{
+    color: white;
     text-decoration: none;
 }
 
-nav >a:hover{
-    background-color: gray ;
+
+#burguer{
+    background-color:rgb(72, 72, 72);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor:pointer
 }
+
+#burguer:hover{
+    background-color: white;
+    color: black;
+}
+
 
 main{
     background-color:white;
