@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 768px) and ( max-width:992px){ /*Tablet*/
+ #burguer{
+    display: none;
+ }
+ #menu{
+    display: block;
+ }
+ menu li {
+    display: inline-block;
+ }
+ main{
+    max-width: 600px;
+ }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px){/*Desktop*/
+    #burguer{
+        display: none;
+    }
+    #menu{
+        display: block;
+     }
+     menu li {
+        display: inline-block;
+     }
+     main{
+        max-width: 800px;
+     }
+    }
+
+
+
+@media screen and (min-width:1200px){/*TV*/
+    #burguer{
+        display: none;
+    }
+    #menu{
+        display: block;
+     }
+     menu li {
+        display: inline-block;
+     }
+     main{
+        max-width: 1000px;
+     }
+    }
+
+

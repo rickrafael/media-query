@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+/*Mobile First*/
+
 *{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
@@ -11,7 +13,7 @@ body{
 }
 header{
     background-color: #949494;
-    padding: 20px;
+    padding: 10px;
     
 }
 
